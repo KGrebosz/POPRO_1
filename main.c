@@ -12,6 +12,11 @@ int nwd(int a,int b)
     return a;
 }
 
+int nww(int a,int b)
+{
+    return a*b/nwd(a,b);
+}
+
 int main(void)
 {
     int x,y;
